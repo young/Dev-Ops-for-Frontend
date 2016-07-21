@@ -1,0 +1,13 @@
+{
+  "env": {
+      "browser": false,
+      "node": true,
+      "es6": true
+  },
+  "rules": {
+      "no-debugger": 1,             // disallow use of debugger
+      "no-unused-vars": 1,          // disallow declaration of variables that are not used in the code
+      "no-var": 2,                  // require let or const instead of var
+      "semi": 2                     // require semicolons
+  }
+}
