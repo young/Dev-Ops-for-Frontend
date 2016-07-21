@@ -5,6 +5,7 @@ const gulp = require('gulp');
 const concat = require('gulp-concat');
 const less = require('gulp-less');
 const uglify = require('gulp-uglify');
+const minifyCSS = require('gulp-clean-css');
 const del = require('del');
 const shell = require('gulp-shell');
 
